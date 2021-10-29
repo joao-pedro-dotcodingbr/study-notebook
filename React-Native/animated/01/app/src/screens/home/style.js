@@ -8,9 +8,7 @@ export const Style = StyleSheet.create({
         flexDirection:'row',
         justifyContent:'space-between',
         marginTop:20,
-        marginHorizontal:30,
    
-        
         
     },
     title:{
@@ -22,15 +20,16 @@ export const Style = StyleSheet.create({
     },
     ContainerPatri:{
         
-        width: '88%',
+        width: '100%',
         padding: 15,
         flexDirection:'row',
         borderRadius:5,
         marginTop:20,
         
         backgroundColor:'#fff',
+        justifyContent:'center',
         alignSelf:'center',
-        justifyContent:'center'
+
     },
     fontMoney:{
         fontWeight:'800',
@@ -38,7 +37,7 @@ export const Style = StyleSheet.create({
     },
     containerChart:{
 
-        width: '88%',
+        width: '100%',
         padding: 15,
         borderRadius:5,
         backgroundColor:'#fff',
