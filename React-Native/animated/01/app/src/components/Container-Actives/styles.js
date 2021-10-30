@@ -6,19 +6,18 @@ export const Style = StyleSheet.create({
     container:{
 
         backgroundColor:'#fff',
-        width: width * 0.60,
+        width: width * 0.80,
         height: 260,
         borderRadius:10,
-        marginRight:10,
-        marginLeft:30
+        marginRight:10
 
 
     },
     cicle:{
 
-        width: 10,
-        height: 10,
-        borderRadius:10,
+        width: 20,
+        height: 20,
+        borderRadius:20,
         marginTop:10,
         marginLeft:10
 

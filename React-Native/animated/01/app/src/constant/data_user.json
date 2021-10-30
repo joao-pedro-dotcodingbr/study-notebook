@@ -1,5 +1,7 @@
 [
     {
+        
+        "type":"funds",
         "name":"mxrf11",
         "value":"10.08",
         "average_price": "10",
@@ -39,7 +41,50 @@
     },
 
     {
+
+        "type":"funds",
         "name":"deva11",
+        "value":"110",
+        "average_price": "111",
+        "number_of_shares":10,
+        "details":{
+
+            "purchases":[
+
+                {
+                    "date":"10/09/2021",
+                    "value":"10.08",
+                    "amount":5
+
+                },
+                {
+                    "date":"10/09/2021",
+                    "value":"10.08",
+                    "amount":5
+                    
+                },
+                {
+                    "date":"10/09/2021",
+                    "value":"10.08",
+                    "amount":5
+                    
+                }
+
+
+
+            ],
+            "sales":[
+
+            ]
+
+        }
+
+    },
+    
+    {
+
+        "type":"action",
+        "name":"taee4",
         "value":"110",
         "average_price": "111",
         "number_of_shares":10,
