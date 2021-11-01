@@ -7,7 +7,6 @@ export const Style = StyleSheet.create({
 
         backgroundColor:'#fff',
         width: width * 0.80,
-        height: 260,
         borderRadius:10,
         marginRight:10
 
@@ -24,7 +23,8 @@ export const Style = StyleSheet.create({
     },
 
     containerInfor:{
-        alignSelf:'center'
+        alignSelf:'center',
+        alignItems:'center'
     }
 
 })
