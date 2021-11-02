@@ -110,8 +110,9 @@ const styles = StyleSheet.create({
         shadowOpacity:0.8,
         shadowOffset:{
             height: 10,
+            width: 10
         },
-      
+        elevation: 20
 
     },
     submenu:{
