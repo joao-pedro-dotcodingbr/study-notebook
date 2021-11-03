@@ -3,16 +3,21 @@ import { View ,  Image , Text , TouchableOpacity , Animated} from 'react-native'
 import { styles } from './styles';
 
 export default class Card extends Component {
+
     animation = new Animated.Value(0)
 
-    FunctionAnimation = () =>{
+    
 
+    FunctionAnimation = () =>{
+        const toValue = this.open ? 0 : 1
        Animated.timing(this.animation, {
-           toValue:3,
+           toValue,
            useNativeDriver:false,
-           duration:1100
+           duration:400
 
        }).start()
+
+       this.open = !this.open
 
     }
        
